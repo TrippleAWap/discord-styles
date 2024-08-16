@@ -6,8 +6,9 @@
 body > div.drag-previewer {
 	background:  center / contain var(--image);
 	background-size: cover;
-	height: 100%;
+	height: 100vh;
 	opacity: var(--image-opacity);
-	background-repeat: no-repeat;
+	background-size: cover, auto, cover; /* Adjust sizes as needed */
+	background-position: center, center, center; /* Adjust positions as needed */
 	pointer-events: none;
 }
