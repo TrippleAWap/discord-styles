@@ -64,7 +64,7 @@
 	background-color: transparent;
 }
 
-/* no idea, red for debugging purposes. will change once I find out what this is for... lol */
+/* this is the vc background while watching a stream */
 #app-mount > div.appAsidePanelWrapper_bd26cc > div.notAppAsidePanel_bd26cc > div.app_bd26cc > div > div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.chat_a7d72e > div.wrapper_d880dc.noChat_d880dc.video_d880dc > div.callContainer_d880dc.theme-dark.images-dark > div > div.root_f8a4f3.flexCenter_bae578 {
-	background-color: red;
+	background-color: transparent;
 }
