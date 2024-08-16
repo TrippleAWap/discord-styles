@@ -1,6 +1,6 @@
 /**
  * @name Dark Theme
- * @version 1.0.0
+ * @version 1.0.3
  * @description Simple Dark Theme
  * @author TrippleAWap
  */
@@ -52,11 +52,11 @@
 }
 
 .theme-dark .themed_fc4f04 {
-	background: var(--background-primary);
+	background: transparent;
 	color: var(--background-primary);
 }
 
+// discord titlebar
 #app-mount > div.typeWindows_a934d8.withFrame_a934d8.titleBar_a934d8.withBackgroundOverride_a934d8 {
-	background-color: var(--channeltextarea-background);
+	background-color: transparent;
 }
-
