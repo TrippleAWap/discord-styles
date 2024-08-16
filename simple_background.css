@@ -1,0 +1,14 @@
+:root {
+  --image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gifcen.com%2Fwp-content%2Fuploads%2F2022%2F08%2Fdiscord-banner-gif.gif&f=1&nofb=1&ipt=8352ffe80f4aaefd6a72dc707da5074f3e7a0e21edc342dbedc294ef330e507d&ipo=images');
+  --image-opacity: 0.2;
+}
+
+body > div.drag-previewer {
+	background-color: transparent;
+	background-image: var(--image);
+	background-size: cover;
+	height: 100%;
+	opacity: var(--image-opacity);
+	background-repeat: no-repeat;
+	pointer-events: none;
+}
