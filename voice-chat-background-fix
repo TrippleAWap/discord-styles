@@ -1,0 +1,12 @@
+.gradientTop_dd069c {
+	opacity: 0;
+}
+.gradientBottom_dd069c {
+	opacity: 0;
+}
+.callContainer_d880dc {
+	background: transparent;
+}
+.wrapper_d880dc {
+	background: var(--channeltextarea-background);
+}
