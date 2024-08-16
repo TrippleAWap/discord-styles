@@ -4,8 +4,7 @@
 }
 
 body > div.drag-previewer {
-	background-color: transparent;
-	background-image: var(--image);
+	background:  center / contain var(--image);
 	background-size: cover;
 	height: 100%;
 	opacity: var(--image-opacity);
