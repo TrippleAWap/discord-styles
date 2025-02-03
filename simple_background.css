@@ -1,13 +1,15 @@
 :root {
   --image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gifcen.com%2Fwp-content%2Fuploads%2F2022%2F08%2Fdiscord-banner-gif.gif&f=1&nofb=1&ipt=8352ffe80f4aaefd6a72dc707da5074f3e7a0e21edc342dbedc294ef330e507d&ipo=images');
-  --image-opacity: 0.2;
+  --image-opacity: 0.1;
 }
 
-body > div.drag-previewer {
+iframe {
+	visibility: visible !important;
 	background:  var(--image);
-	background-size: cover;
 	height: 100vh;
+	width: 100vw;
 	opacity: var(--image-opacity);
+	z-index: 9999999999999999;
 	background-size: cover, auto, cover;
 	background-position: center, center, center;
 	pointer-events: none;
