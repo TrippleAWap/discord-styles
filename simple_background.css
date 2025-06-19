@@ -3,7 +3,7 @@
   --image-opacity: 0.1;
 }
 
-body > iframe {
+body > div[class="drag-previewer"] {
 	visibility: visible !important;
 	background:  var(--image);
 	height: 100vh;
