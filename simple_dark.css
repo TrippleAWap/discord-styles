@@ -1,25 +1,19 @@
 /**
  * @name Dark Theme
- * @version 1.0.3
+ * @version 1.0.4
  * @description Simple Dark Theme
  * @author TrippleAWap
  */
  
-@import url("https://raw.githubusercontent.com/tom22k/discord-css/main/Themes/HideNitroUpsellV2.css");
 @import url("https://raw.githubusercontent.com/TrippleAWap/discord-styles/main/simple_background.css");
-@import url("https://raw.githubusercontent.com/TrippleAWap/discord-styles/main/voice_chat_background_fix.css");
 @import url("https://raw.githubusercontent.com/TrippleAWap/discord-styles/main/no_guild_unread.css");
-@import url("https://raw.githubusercontent.com/TrippleAWap/discord-styles/main/fix_discolored_panels.css");
 
 :root {
-	--billing: none;
-	--boosting: none;
-	
 	--background-primary: hsl(0, 0%, 11%);
 	--background-modifier-accent: transparent;
 	--header-primary: hsl(0, 0%, 44%); 
 	
-	--background-secondary: hsl(0, 0%, 9%);;
+	--background-secondary: hsl(0, 0%, 9%);
 	--background-secondary-alt: var(--background-secondary);
 	--background-modifier-selected: hsl(0, 	0%, 15%);
 	
@@ -54,9 +48,4 @@
 .theme-dark .themed_fc4f04 {
 	background: transparent;
 	color: var(--background-primary);
-}
-
-// discord titlebar
-#app-mount > div.typeWindows_a934d8.withFrame_a934d8.titleBar_a934d8.withBackgroundOverride_a934d8 {
-	background-color: transparent;
 }
