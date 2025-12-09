@@ -35,3 +35,8 @@
 .container_a6d69a {
     background: transparent;
 }
+
+/* remove vc background because its ugly */
+.root_bfe55a, .chat_f75fb0, .video_cb9592, .callContainer_cb9592, .gradientContainer_bfe55a {
+    background: transparent !important;
+}
