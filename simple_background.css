@@ -1,16 +1,97 @@
-:root {
-  --image: url('https://github.com/TrippleAWap/discord-styles/blob/main/hearts.gif?raw=true');
-  --image-opacity: 0.1;
-}
+	/**
+	 * @name Classic Background
+	 * @version 1.1.2
+	 * @description Transparent theme on discord with an adjustable background.
+	 * @author TrippleAWap
+	 */
 
-body > div[class="drag-previewer"] {
-	visibility: visible !important;
-	background:  var(--image);
-	height: 100vh;
-	width: 100vw;
-	opacity: var(--image-opacity);
-	z-index: 9999999999999999;
-	background-size: cover, auto, cover;
-	background-position: center, center, center;
-	pointer-events: none;
-}
+	@import url("https://raw.githubusercontent.com/TrippleAWap/discord-styles/main/no_guild_unread.css");
+
+	:root {
+		--image: url("https://i.pinimg.com/originals/0a/93/83/0a938302a2eb846ec64302aa346c92e6.png");
+		--image-opacity: 0.7;
+	}
+
+	div[class*="divider_"] {
+		display: none;
+	}
+	
+	*[class*="gradientContainer"] {
+		background: transparent !important;
+	}
+
+	div[class^="pulseGradient"] {
+		display: none !important;
+	}
+	svg[viewBox="0 0 1000 1000"] {
+		display: none !important;
+	}
+
+	div[class^="bg__"][class*="theme-"] {
+		visibility: visible !important;
+		background: var(--image);
+		height: 100vh !important;
+		width: 100vw !important;
+		top: 0 !important;
+		left: 0 !important;
+		position: absolute;
+		display: box;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		opacity: var(--image-opacity);
+	}
+
+	div[class*="callContainer"], div[class*="callContainer"] > div {
+		background: none !important;
+	}
+	
+	*[class*="theme"] {
+		--background-accent: color-mix(in oklab,hsl(230 calc(1*6.383%) 18.431%/0) 100%,#000 0%);
+		--background-base-low: color-mix(in oklab,hsl(240 calc(1*7.692%) 5.098%/0) 100%,#000 0%);
+		--background-base-lower: color-mix(in oklab,hsl(240 calc(1*12.5%) 3.137%/0) 100%,#000 0%);
+		--background-base-lowest: color-mix(in oklab,hsl(0 calc(1*0%) 0%/0) 100%,#000 0%);
+		--background-surface-higher: color-mix(in oklab,hsl(240 calc(1*5.66%) 10.392%/0) 100%,#000 0%);
+		--chat-background-default: color-mix(in oklab,hsl(220 calc(1*7.317%) 8.039%/0) 100%,#000 0%);
+		--background-surface-high: color-mix(in oklab,hsl(220 calc(1*7.317%) 8.039%/0) 100%,#000 0%);
+	}
+
+	div[class*="voiceChannelHighlightGlow"] {
+		display: none;
+	}
+
+	div[class*="channel"], div[class*="channel"] > div {
+		background: transparent !important;
+	}
+
+	div[class*="container"], div[class*="container"] > div {
+		background: transparent !important;
+	}
+
+	div[class*="callContainer"], div[class*="callContainer"] > div {
+		background: none !important;
+	}
+
+	div[class*="contentHeader"], div[class*="contentHeader"] > div {
+		background: none !important;
+	}
+
+	div[data-selenium-video-tile], div[data-selenium-video-tile] > div > div > div  {
+		background: none !important;
+	}
+
+	div[class*="wrapper"][class*="overlay"][aria-hidden="true"] {
+		opacity: 0.2;
+	}
+	
+	*[class*="item"] {
+		--background-surface-high: red !important;
+	}
+
+	* {
+		border: none !important;
+		border-left: none !important;
+		border-right: none !important;
+		border-top: none !important;
+		border-bottom: none !important;
+	}
