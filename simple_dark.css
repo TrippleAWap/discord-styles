@@ -6,46 +6,7 @@
  */
  
 @import url("https://raw.githubusercontent.com/TrippleAWap/discord-styles/main/simple_background.css");
-@import url("https://raw.githubusercontent.com/TrippleAWap/discord-styles/main/no_guild_unread.css");
 
 :root {
-	--background-primary: hsl(0, 0%, 11%);
-	--background-modifier-accent: transparent;
-	--header-primary: hsl(0, 0%, 44%); 
-	
-	--background-secondary: hsl(0, 0%, 9%);
-	--background-secondary-alt: var(--background-secondary);
-	--background-modifier-selected: hsl(0, 	0%, 15%);
-	
-	--channeltextarea-background: hsl(0, 0%, 7%);
-	--border-subtle: transparent;
-	
-	div[class="scroller_fea3ef none_c49869 scrollerBase_c49869"] {
-		background-color: var(--background-primary);
-	}
-	
-	section[aria-label="User Area"] {
-		background-color: var(--background-primary);
-	}
-	
-	div[aria-label="Subscriptions"] {
-		display:none;
-	}
-	
-	div[aria-label="Gift Inventory"] {
-		display:none;
-	}
-	
-	div[class="divider_fc4f04 divider_ae6b8e"] {
-		display: none;
-	}
-}	
-
-.theme-dark .children_fc4f04:after {
-	background: transparent;
-}
-
-.theme-dark .themed_fc4f04 {
-	background: transparent;
-	color: var(--background-primary);
+	--image: black;
 }
