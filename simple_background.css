@@ -5,9 +5,7 @@
 	 * @author TrippleAWap
 	 */
 
-	@import url("https://raw.githubusercontent.com/TrippleAWap/discord-styles/main/no_guild_unread.css");
-
-	:root {
+	:root {	
 		--image: url("https://i.pinimg.com/originals/0a/93/83/0a938302a2eb846ec64302aa346c92e6.png");
 		--image-opacity: 0.7;
 	}
@@ -81,7 +79,7 @@
 	}
 
 	div[class*="wrapper"][class*="overlay"][aria-hidden="true"] {
-		opacity: 0.2;
+		opacity: 0.5;
 	}
 	
 	*[class*="item"] {
